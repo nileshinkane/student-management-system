@@ -1,0 +1,58 @@
+.admintitle
+{
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.dashboard
+{
+    padding: 20px;
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+.container
+{
+    flex: 1;
+    border: 1px solid #aaa;
+    margin: 10px;
+    padding: 90px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 1px #aaa;
+    transition: 0.3s;
+}
+.container:hover
+{
+    transform: scale(1.000001);
+    box-shadow: 2px 2px 5px 2px #aaa;
+}
+span
+{
+    display: flex;
+}
+.cont-font
+{    
+    text-decoration: none;
+    margin: auto;
+    font-family: serif;
+    font-size: 30px;
+    color: darkgoldenrod;
+}
+.logout
+{
+    font-size: 25px;
+    font-weight: 100;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.logout:hover
+{
+    background-color: black;
+    color: white;
+}
